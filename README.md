@@ -17,7 +17,7 @@ With a venture investment of over $150,000, in May 2024, we launched our first m
 We aim to accompany the project from the testnet phase and support members in operating nodes & validators.<br>
 
 - - - - -
-Kết nối với chúng tôi | conecting
+Kết nối với chúng tôi | Conecting
 <br> https://x.com/MwNode
 <br> https://t.me/mwnode
 <br> admin@mwnode.com
