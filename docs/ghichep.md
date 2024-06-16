@@ -35,11 +35,17 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -54,7 +60,7 @@ const config: Config = {
     navbar: {
       title: 'MW | NODE',
       logo: {
-        alt: '',
+        alt: 'MW | NODE Logo',
         src: 'img/mwlogo.png',
       },
       items: [
@@ -74,14 +80,13 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-
       links: [
         {
           title: 'Docs',
           items: [
             {
-              label: 'Binh Thanh - HCMC - VietNam',
-              to: '/',
+              label: 'Tutorial',
+              to: '/docs/intro',
             },
           ],
         },
@@ -90,15 +95,15 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: '#',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
               label: 'Discord',
-              href: '#',
+              href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
-              href: '#',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -111,12 +116,11 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: '#',
+              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      
       copyright: `Copyright © ${new Date().getFullYear()} MW | NODE. Built with Docusaurus.`,
     },
     prism: {
